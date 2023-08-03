@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Sudoku
+comment0.text=\r\n\ @author\ Jo\u00E3o\ Pedro\ Beltrand(22103079)\r\n\ Thiago\ Espirito\ Santo\ Miro(22103151)\r\n
+comment1.params=matriz
+comment1.target=void\ exibeMatriz(int[][])
+comment1.text=\r\n\ Recebe\ a\ matriz\ com\ o\ tabuleiro\ escolhido\ pelo\ jogador,\ adiciona\ nome\ as\ linhas\ (ex\:\ L1-,L4-)\ e\ desenha\ as\ divisorias\ internas.\r\n
+comment2.params=matriz
+comment2.target=int[][]\ copiarMatriz(int[][])
+comment2.text=\r\n\ \ Esse\ metodo\ copia\ a\ matriz\ original\ caso\ a\ jogada\ n\u00E3o\ seja\ possivel,\ \r\n\ \ permitindo\ o\ jogador\ continuar\ sem\ alterar\ o\ tabuleiro\ erroneamente.\r\n
+comment3.params=matriz\ linha\ coluna\ numero
+comment3.target=boolean\ inserirNumeroNaPosi\u00E7\u00E3o(int[][],\ int,\ int,\ int)
+comment3.text=\r\n\ \ O\ metodo\ recebe\ a\ jogada(linha,coluna\ e\ numero)\ e\ \r\n\ \ verifica\ na\ linha,\ na\ coluna\ e\ no\ box\ se\ \u00E9\ possivel\ inseri-lo\ naquele\ local.\ \r\n
+comment4.params=matriz\ linha\ coluna\ numero
+comment4.target=void\ exibeMovimentoBloqueado(int[][],\ int,\ int,\ int)
+comment4.text=\r\n\ \ Esse\ metodo\ tambem\ recebe\ a\ jogada\ e\ faz\ a\ verifica\u00E7\u00E3o,\ \r\n\ \ porem\ ele\ mostra\ ao\ usuario\ se\ o\ moviemnto\ esta\ errado\ e\ \r\n\ \ diz\ para\ o\ usuario\ se\ o\ numero\ n\u00E3o\ se\ encaixa\ na\ linha,\ na\ coluna\ ou\ no\ boxe.\r\n
+comment5.params=matriz
+comment5.target=boolean\ verificarTabuleiro(int[][])
+comment5.text=\r\n\ Esse\ metodo\ recebe\ a\ matriz,\ passa\ por\ todas\ as\ posi\u00E7\u00F5es\ e\ se\ estiverem\ todas\ ocupadas\ retorna\ true.E\ no\ main\ ele\ printa\ fim\ de\ jogo.\r\n
+comment6.params=posFixa\ matriz
+comment6.target=void\ posFixasTabuleiro(boolean[][],\ int[][])
+comment6.text=\r\n\ Esse\ metodo\ gera\ um\ tabuleiro\ fixo\ que\ n\u00E3o\ vai\ poder\ ser\ alterado\ e\ \r\n\ serve\ para\ quando\ uma\ jogada\ for\ feita\ em\ uma\ posi\u00E7\u00E3o\ ja\ ocupada\ inicialmente,\ \r\n\ o\ jogo\ mostre\ que\ aquela\ posi\u00E7\u00E3o\ \u00E9\ fixa\ do\ tabuleiro.\r\n
+comment7.params=posFixa\ matriz
+comment7.target=boolean[][]\ ocuparPos(boolean[][],\ int[][])
+comment7.text=\r\n\ Esse\ metodo\ compara\ a\ matriz\ que\ esta\ sendo\ alterada\ com\ a\ matriz\ fixa,\ \r\n\ se\ o\ valor\ da\ posi\u00E7\u00E3o\ for\ 0\ ele\ pode\ ser\ alterado,\ \r\n\ porem\ se\ ja\ for\ ocupado\ por\ outro\ numero\ a\ jogada\ \u00E9\ invalida.\r\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
